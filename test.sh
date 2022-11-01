@@ -47,6 +47,9 @@ assert 42 42
 # [2] support '+' and '-'
 assert 34 '12-34+56'
 
+# [3] support space
+assert 34 ' 12 - 34 + 56 '
+
 # 如果运行正常未提前退出，程序将显示OK
 echo OK
 
